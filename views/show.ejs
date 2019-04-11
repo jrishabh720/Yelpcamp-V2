@@ -1,0 +1,14 @@
+<% include partial/header %>
+<h1 class="ml-2">This is Detailed information Given By user</h1>
+<div class="row ml-3">
+<div class="card col-6">
+  <img class="rounded m-2 center" height="300px" src="<%= campgrounds.image %>">
+  <h4 class="m-2 text-center">
+    <%= campgrounds.name %>
+  </h4>
+<h5>
+<%= campgrounds.desc %>
+</h5>
+</div>
+</div>
+<% include partial/footer %>
